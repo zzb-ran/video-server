@@ -15,7 +15,8 @@ router.get("/", (req, res) => {
 router.post("/create", (req, res) => {
 	res.send({
 		status: 200,
-		data: 1
+		id: 1,
+		name: "zzb"
 	});
 });
 
